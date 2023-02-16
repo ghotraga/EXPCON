@@ -1,0 +1,21 @@
+.footer {
+    --footer-BackgroundColor: #5E33D1;
+
+    background-color: var(--footer-BackgroundColor);
+    height: 6rem;
+    width: 100%;
+
+    .companyName{
+        font-size: 2.5rem;
+    }
+
+    // .emailIcon {
+    //     width:"35px";
+    //     height: "33px";
+    //     color: white;
+    // }
+
+    // .companyEmail{}
+    
+    // .companyTrademark{}
+}

@@ -1,0 +1,200 @@
+.countrySelector {
+  color: black;
+  width: 10vw;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.sloganTextPAYMENT {
+  margin-top: 108px;
+  margin-left: 143px;
+  width: 398px;
+  height: 88px;
+  text-align: left;
+  font: normal normal bold 51pxHelvetica;
+  letter-spacing: 5.1px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.selectYourPlanTitle {
+  margin-top: 17px;
+  margin-left: 185px;
+  width: 456px;
+  height: 53px;
+  text-align: left;
+  font: normal normal normal 35px Helvetica;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.selectYourPlanRadioGroup {
+  margin-top: 17px;
+  margin-left: 185px;
+}
+
+.twoStepGrid {
+  display: grid;
+  grid-template-columns: 480px 600px;
+  margin-left: 185px;
+}
+
+.billingInformationStep {
+  grid-column-start: 1;
+}
+
+.billingInformationTitle {
+  margin-top: 44px;
+  width: 507px;
+  height: 53px;
+  text-align: left;
+  font: normal normal normal 35px Helvetica;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.fullNameLabel {
+  width: 137px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.billingAddressLabel {
+  width: 207px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.cityLabel {
+  width: 137px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.countryLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.postalCodeLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.creditCardInformation {
+  grid-column-start: 2;
+  margin-left: 100px;
+}
+
+.cardHolderNameLabel {
+  width: 287px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.cardNumberLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.expiryMonthLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.expiryYearLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.cvvLabel {
+  width: 167px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 22px/34px Helvetica;
+  letter-spacing: 2.2px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.termsAndConditionsTitle {
+  margin-top: 33px;
+  margin-left: 185px;
+  width: 831px;
+  height: 60px;
+  text-align: left;
+  letter-spacing: 2.2px;
+  opacity: 1;
+}
+
+.downloadButton {
+  margin-top: 10px;
+  margin-left: 185px;
+  width: 217px;
+  height: 60px;
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  border: none;
+  opacity: 1;
+}
+
+.buttonName {
+  width: 127px;
+  height: 23px;
+  text-align: left;
+  font: normal normal bold 19px/24px Helvetica;
+  letter-spacing: 1.9px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.spacing {
+  margin-top: 150px;
+}
+
+.paymentForm {
+  margin-left: 200px;
+}/*# sourceMappingURL=payment.module.css.map */

@@ -1,0 +1,142 @@
+.carouselWrapper{
+    height: 100vh;
+    .carousel {
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+       
+
+        .heroImage {
+            height: 100vh;
+            width: 100%;
+            filter: brightness(50%);
+            animation: zoom-in-slow 10s ease-in infinite;
+            
+        }
+
+        @keyframes zoom-in-slow {
+            0% {
+                transform: scale(1);
+              }
+              50% {
+                transform: scale(1.0006);
+              }
+              100% {
+                transform: scale(1.001);
+              }
+        }
+    }
+    
+    .sloganAndCTASection {
+      width: 100%;
+      position: relative;
+      top: -57%;/*-66. -64 (best with 10rem)*/
+
+      .sloganAndCTATextWrapper {
+        text-align: center;
+        
+        .sloganText {
+          // font-family: 'Righteous';
+          /*font-size: 8rem;/*10rem*/
+          font-size: 4vw;// 6vw
+          font-weight: bold;
+          color: white;
+          letter-spacing: 6.5px;
+        }
+        
+        .descriptionText {
+          font-family: var(--font-familyExtraLightReg) !important;
+          font-size: 2vw;
+          padding-top: 5px;
+        }
+      }
+    }
+
+      .scrolldown {
+        --color: white;
+        --sizeX: 30px; //30px
+        --sizeY: 50px; //50px
+        position: relative;
+        width: var(--sizeX);
+        height: var(--sizeY);
+        margin-left: var(sizeX / 2);
+        border: calc(var(--sizeX) / 10) solid var(--color);
+        border-radius: 50px;
+        box-sizing: border-box;
+        margin-bottom: 16px;
+        top: -44vh; /*64%, 23%*/
+        left: 50%;
+        z-index: 1000;
+      }
+      
+      .scrolldown::before {
+        content: "";
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        width: 6px;
+        height: 6px;
+        margin-left: -3px;
+        background-color: var(--color);
+        border-radius: 100%;
+        animation: scrolldown-anim 2s infinite;
+        box-sizing: border-box;
+        box-shadow: 0px -5px 3px 1px #ffffff66;
+        z-index: 1000;
+      }
+      
+      @keyframes scrolldown-anim {
+        0% {
+          opacity: 0;
+          height: 6px;
+        }
+        40% {
+          opacity: 1;
+          height: 10px;
+        }
+        80% {
+          transform: translate(0, 20px);
+          height: 10px;
+          opacity: 0;
+        }
+        100% {
+          height: 3px;
+          opacity: 0;
+        }
+      }
+      .chevrons {
+        position: absolute;
+        padding: 6px 0 0 0;
+        margin-left: -3px;
+        margin-top: 48px;
+        width: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+    .chevrondown {
+      margin-top: -6px;
+      position: relative;
+      border: solid var(--color);
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      transform: rotate(45deg);
+    }
+    .chevrondown:nth-child(odd) {
+      animation: pulse 500ms ease infinite alternate;
+    }
+    .chevrondown:nth-child(even) {
+      animation: pulse 500ms ease infinite alternate 250ms;
+    }
+    @keyframes pulse {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 0.5;
+      }
+    }      
+}

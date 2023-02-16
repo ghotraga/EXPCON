@@ -1,0 +1,429 @@
+.pricingPage .planpricingRoot {
+  background-color: #191919;
+  width: -moz-fit-content;
+  width: fit-content;
+  block-size: -moz-fit-content;
+  block-size: fit-content;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingTITLE {
+  padding-top: 10vh;
+  margin-left: 10vw;
+  width: 18.6vw;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(44px, 4.35vw, 54px);
+  letter-spacing: 5.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingDESCRIPTION {
+  padding-top: 1vh;
+  margin-left: 10vw;
+  text-align: left;
+  font: normal normal normal Helvetica;
+  font-size: clamp(24px, 4.35vw, 34px);
+  letter-spacing: 3.1px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer {
+  padding-top: 4vh;
+  padding-left: 10vw;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingONE {
+  grid-column-start: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingONE .priceOneTier {
+  /*margin-left: 199px;*/
+  width: 5.71vw;
+  height: 3.8vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(17px, 4.35vw, 27px);
+  font-weight: bold;
+  letter-spacing: 4.2px;
+  color: #D24848;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingONE .priceOneLineDivider {
+  margin-top: 1.4vh;
+  /*margin-left: 199px;*/
+  width: 5.51vw;
+  height: 0px;
+  border: 2px solid #D14747;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingONE .priceOneType {
+  margin-top: 2.12vh;
+  /*margin-left: 199px;*/
+  width: 10.16vw;
+  height: 4.25vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(22px, 4.35vw, 31px);
+  font-weight: bold;
+  letter-spacing: 4.7px;
+  color: #D24848;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingONE .priceOneCost {
+  /*margin-left: 199px;*/
+  width: 6.33vw;
+  height: 12.13vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(77px, 4.35vw, 87px);
+  font-weight: bold;
+  letter-spacing: 13.4px;
+  color: #D24848;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingONE .priceOneDescription {
+  margin-top: 1vh;
+  /*margin-left: 199px;*/
+  width: 100.05vw;
+  height: 28.43vh;
+  text-align: left;
+  font: normal normal normal Helvetica;
+  font-size: clamp(10px, 4.35vw, 36px);
+  letter-spacing: 4.7px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingONE .buttonONEPRICING {
+  margin-right: 50%;
+  margin-top: 10.5%;
+  margin-bottom: 6.25%;
+  width: 17.4vh;
+  height: 8.67vh;
+  background: #D24848 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 79px;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingONE .buttonONEText {
+  text-align: center;
+  font: normal normal bold Helvetica;
+  font-size: clamp(24px, 4.35vw, 29px);
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTWO {
+  grid-column-start: 2;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTWO .priceTwoTier {
+  width: 5.71vw;
+  height: 3.8vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(17px, 4.35vw, 27px);
+  font-weight: bold;
+  letter-spacing: 4.2px;
+  color: #FFB33F;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTWO .priceTwoLineDivider {
+  margin-top: 1.36vh;
+  /* margin-left: 357px;*/
+  width: 5.51vw;
+  height: 0px;
+  border: 2px solid #FFB33F;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTWO .priceTwoType {
+  margin-top: 2.12vh;
+  /* margin-left: 357px;*/
+  width: 8.01vw;
+  height: 4.25vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(22px, 4.35vw, 31px);
+  font-weight: bold;
+  letter-spacing: 4.7px;
+  color: #FFB33F;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTWO .priceTwoCost {
+  /* margin-left: 357px;*/
+  width: 26.25vw;
+  height: 16.63vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(77px, 4.35vw, 87px);
+  font-weight: bold;
+  letter-spacing: 13.5px;
+  color: #FFB33F;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTWO .priceTwoDescription {
+  margin-top: -3.03vh;
+  height: 28.43vh;
+  text-align: left;
+  font: normal normal normal Helvetica;
+  font-size: clamp(10px, 4.35vw, 36px);
+  letter-spacing: 4.7px;
+  color: #FFFFFF;
+  opacity: 1;
+  width: 100.05vw;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTWO .buttonTWOPRICING {
+  margin-right: 50%;
+  margin-top: -7.5%;
+  margin-bottom: 6.25%;
+  width: 17.4vh;
+  height: 8.67vh;
+  background: #FFB33F 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  border: none;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTWO .buttonTWOText {
+  text-align: center;
+  font: normal normal bold Helvetica;
+  font-size: clamp(24px, 4.35vw, 29px);
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTHREE {
+  grid-column-start: 3;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTHREE .priceThreeTier {
+  margin-left: 2vw;
+  width: 3.9vw;
+  height: 3.8vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(17px, 4.35vw, 27px);
+  font-weight: bold;
+  letter-spacing: 4.2px;
+  color: #1FE1E9;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTHREE .priceThreeLineDivider {
+  margin-top: 1.36vh;
+  margin-left: 1.95vw;
+  width: 5.12vw;
+  height: 0px;
+  border: 2px solid #1FE1E9;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTHREE .priceThreeType {
+  margin-top: 2.12vh;
+  margin-left: 2vw;
+  width: 8.01vw;
+  height: 4.25vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(22px, 4.35vw, 31px);
+  font-weight: bold;
+  letter-spacing: 4.7px;
+  color: #1FE1E9;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTHREE .priceThreeCost {
+  margin-left: 2vw;
+  width: 26.3vw;
+  height: 16.79vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(77px, 4.35vw, 87px);
+  font-weight: bold;
+  letter-spacing: 13.5px;
+  color: #1FE1E9;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTHREE .priceThreeDescription {
+  margin-top: -3.03vh;
+  margin-left: 2.04vw;
+  width: 100.05vw;
+  height: 28.43vh;
+  text-align: left;
+  font: normal normal normal Helvetica;
+  font-size: clamp(10px, 4.35vw, 36px);
+  letter-spacing: 4.7px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTHREE .buttonTHREEContainer {
+  margin-left: 1.75vw;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTHREE .buttonTHREEPRICING {
+  margin-left: 9%;
+  margin-top: -7.5%;
+  margin-bottom: 6.25%;
+  width: 17.4vh;
+  height: 8.67vh;
+  background: #1FE1E9 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  border: none;
+  opacity: 1;
+}
+.pricingPage .planpricingRoot .containerPRICING .pricingContainer .pricingTHREE .buttonTHREEText {
+  text-align: center;
+  font: normal normal bold Helvetica;
+  font-size: clamp(8px, 4.35vw, 29px);
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.sliderCarousel {
+  width: 70vw;
+  position: center;
+}
+.sliderCarousel .slick-prev,
+.sliderCarousel .slick-next {
+  position: absolute;
+  top: 50%;
+}
+.sliderCarousel .slick-prev {
+  left: 5%;
+}
+.sliderCarousel .slick-next {
+  right: 5%;
+}
+
+.sloganTextPERKS {
+  font-family: var(--font-familyExtraLightReg) !important;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bolder !important;
+  font-size: clamp(50px, 4.1vw, 64px);
+  letter-spacing: 6.4px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.perkONESPM {
+  grid-column-start: 1;
+}
+
+.lineDividerPERKONE {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #d34848;
+  opacity: 1;
+}
+
+.perkOneTitle {
+  margin-top: 2.5vh;
+  width: 14.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #d34848;
+  opacity: 1;
+}
+
+.perkOneDescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}
+
+.perkTWONFCP {
+  grid-column-start: 2;
+}
+
+.lineDividerPERKTWO {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #1fe1e9;
+  opacity: 1;
+}
+
+.perkTWOTitle {
+  margin-top: 2.5vh;
+  width: 14.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #1fe1e9;
+  opacity: 1;
+}
+
+.perkTWODescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}
+
+.perkTHREESPM {
+  grid-column-start: 3;
+}
+
+.lineDividerPERKTHREE {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #ffb33f;
+  opacity: 1;
+}
+
+.perkTHREETitle {
+  margin-top: 2.5vh;
+  width: 40.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #ffb33f;
+  opacity: 1;
+}
+
+.perkTHREEDescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}
+
+.perkFORSPM {
+  grid-column-start: 4;
+}
+
+.lineDividerPERKFOUR {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #5e33d1;
+  opacity: 1;
+}
+
+.perkFOURTitle {
+  margin-top: 2.5vh;
+  width: 40.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #5e33d1;
+  opacity: 1;
+}
+
+.perkFOURDescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}/*# sourceMappingURL=planpricing.module.css.map */

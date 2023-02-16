@@ -1,0 +1,87 @@
+.header {
+    .AppBar {
+        margin-top: 12px;
+        width: 100%;
+        display:flex;
+
+        .appTitle {
+            font-family: var(--font-familyExtraLightReg) !important;
+            float: left !important;
+            // .appTitle:hover {
+            //     cursor: pointer;
+            // }        
+        }
+
+        .buttonTryNow {
+          //float: right !important;
+        }
+    }
+    
+    .indelible{
+        font-family:'Indelible',sans-serif;
+        font-size:5rem;
+        background-repeat:repeat;
+        padding-right:7rem;
+        padding-left:3rem;
+        background:#ad69ee;
+        -webkit-background-clip:text;
+        -webkit-text-fill-color: transparent;
+        position:relative;
+        filter:url(#fake-anaglyph);
+      }
+      
+      .indelible1:after{
+        content:attr(data-text);
+        background:#ad69ee;
+        -webkit-background-clip:text;
+        -webkit-text-fill-color: transparent;
+        filter:url(#inner-glow);
+        position:absolute;
+        left:0;
+        top:0;
+        padding-right:7rem;
+        padding-left:3rem;
+      }
+    //   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink">
+    //   <defs>
+        
+    //     <filter id="noise" x="0vw" y="0vh" width="100vw" height="100vh">
+    //       <feFlood flood-color="#808080" result="neutral-gray" />      
+    //       <feTurbulence in="neutral-gray" type="fractalNoise" baseFrequency="0.8" numOctaves="10" stitchTiles="stitch" result="noise"/>
+    //       <feColorMatrix in="noise" type="saturate" values="0" result="destaturatedNoise"></feColorMatrix>
+    //       <feComponentTransfer in="desaturatedNoise" result="theNoise">
+    //         <feFuncA type="table" tableValues="0 0 0.2 0"></feFuncA>
+    //       </feComponentTransfer>
+    //       <feBlend in="SourceGraphic" in2="theNoise" mode="soft-light" result="noisy-image"/>      
+    //     </filter>
+     
+        
+    //     <filter id="fake-anaglyph" height="300%" width="300%" x="-75%" y="-75%">
+    //         {/* <!-- Thicken out the original shape --> */}
+    //         <feMorphology operator="dilate" radius="1" in="SourceGraphic" result="thicken" />
+    //     <feOffset dx="-3"  result="thicken1" />
+    //         {/* <!-- Change the colour --> */}
+    //         <feFlood flood-color="#5dd4c6" result="glowColor" />
+        
+    //         {/* <!-- Color in the glows --> */}
+    //         <feComposite in="glowColor" in2="thicken1" operator="in" result="softGlow_colored" />
+    
+    //         {/* <!--	Layer the effects together --> */}
+    //         <feMerge>
+    //             <feMergeNode in="softGlow_colored"/>
+    //             <feMergeNode in="SourceGraphic"/>
+    //         </feMerge>
+    
+    //     </filter>
+        
+    //   <filter id="inner-glow">
+    //     <feFlood flood-color="rgba(255,255,255,1)"/>
+    //     <feComposite in2="SourceAlpha" operator="out"/>
+    //     <feGaussianBlur stdDeviation="2" result="blur"/>
+    //     <feOffset dx="-2" result="glow"/>
+    //     <feComposite operator="in" in="glow" in2="SourceAlpha" result="composite"/>
+        
+    // </filter>     
+    //   </defs>
+    // </svg>
+}

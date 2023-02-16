@@ -1,0 +1,33 @@
+.header .AppBar {
+  margin-top: 12px;
+  width: 100%;
+  display: flex;
+}
+.header .AppBar .appTitle {
+  font-family: var(--font-familyExtraLightReg) !important;
+  float: left !important;
+}
+.header .indelible {
+  font-family: "Indelible", sans-serif;
+  font-size: 5rem;
+  background-repeat: repeat;
+  padding-right: 7rem;
+  padding-left: 3rem;
+  background: #ad69ee;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  filter: url(#fake-anaglyph);
+}
+.header .indelible1:after {
+  content: attr(data-text);
+  background: #ad69ee;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: url(#inner-glow);
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-right: 7rem;
+  padding-left: 3rem;
+}/*# sourceMappingURL=Header.module.css.map */

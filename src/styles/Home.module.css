@@ -1,0 +1,448 @@
+.main {
+  font-family: var(--font-familyExtraLightReg) !important;
+}
+.main .sectionRED {
+  height: 100vh;
+  width: 100vw;
+  background-color: #d34848;
+}
+.main .sectionRED .mouseParallaxCon {
+  height: 100vh;
+  width: 100vw;
+}
+.main .sectionRED .sloganTextRED {
+  margin-top: 35vh;
+  margin-left: 19.33vh;
+  font-size: clamp(50px, 4.1vw, 62px);
+  font-weight: bold;
+  letter-spacing: 7.4px;
+  color: #ffffff;
+}
+.main .sectionRED .descriptiveTextRED {
+  margin-top: 2%;
+  margin-left: 19.33vh;
+  font-weight: normal;
+  font-size: clamp(28px, 2.35vw, 41px);
+  letter-spacing: 5.1px;
+  color: #000000;
+}
+.main .sectionRED .CTAButtonRED {
+  height: 81px;
+  width: 338px;
+  background: #ffffff 0% 0% no-repeat;
+  border: none;
+  border-radius: 79px;
+  margin-left: 38%;
+  /*-1200px;*/
+}
+.main .sectionRED .CTAButtonTextRED {
+  text-align: center;
+  font: normal normal bold 23px/28px HELVETICA;
+  letter-spacing: 2.3px;
+  color: #d1346e;
+}
+.main .sectionRED .medium17SpeakerRED {
+  position: absolute;
+  margin-top: -25%;
+  /*-486px;*/
+  margin-left: 62%;
+  /*784px;*/
+}
+.main .sectionRED .medium17SpeakerRED .medium17SpeakerREDimg {
+  height: 60%;
+  width: 39%;
+}
+.main .sectionRED .medium27SpeakerRED {
+  position: absolute;
+  margin-top: -10%;
+  /*-210px;*/
+  margin-left: 74%;
+  /*1084px;*/
+}
+.main .sectionRED .medium27SpeakerRED .medium27SpeakerREDimg {
+  height: 60%;
+  width: 59%;
+}
+.main .sectionYELLOW {
+  height: 120vh !important;
+  width: 100% !important;
+}
+.main .sectionPERKS {
+  background-color: #191919;
+  width: 100%;
+  block-size: -moz-fit-content;
+  block-size: fit-content;
+  padding-bottom: 52px;
+}
+.main .sectionPERKS .containerPERKS {
+  margin-left: 2.58vw;
+  block-size: -moz-fit-content !important;
+  block-size: fit-content !important;
+}
+.main .sectionPERKS .containerPERKS .perksContainer {
+  display: flex !important;
+}
+.main .sectionPERKS .containerPERKS .sloganTextPERKS {
+  font-family: var(--font-familyExtraLightReg) !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: bolder !important;
+  font-size: clamp(50px, 4.1vw, 74px);
+  letter-spacing: 6.4px;
+  color: #ffffff;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .sliderCarousel {
+  position: center;
+}
+.main .sectionPERKS .containerPERKS .sliderCarousel .slick-prev,
+.main .sectionPERKS .containerPERKS .sliderCarousel .slick-next {
+  position: absolute;
+  top: 50%;
+}
+.main .sectionPERKS .containerPERKS .sliderCarousel .slick-prev {
+  left: 5%;
+}
+.main .sectionPERKS .containerPERKS .sliderCarousel .slick-next {
+  right: 5%;
+}
+.main .sectionPERKS .containerPERKS .perkONESPM {
+  grid-column-start: 1;
+}
+.main .sectionPERKS .containerPERKS .lineDividerPERKONE {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #d34848;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkOneTitle {
+  margin-top: 2.5vh;
+  width: 14.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #d34848;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkOneDescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}
+.main .sectionPERKS .containerPERKS .perkTWONFCP {
+  grid-column-start: 2;
+}
+.main .sectionPERKS .containerPERKS .lineDividerPERKTWO {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #1fe1e9;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkTWOTitle {
+  margin-top: 2.5vh;
+  width: 14.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #1fe1e9;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkTWODescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}
+.main .sectionPERKS .containerPERKS .perkTHREESPM {
+  grid-column-start: 3;
+}
+.main .sectionPERKS .containerPERKS .lineDividerPERKTHREE {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #ffb33f;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkTHREETitle {
+  margin-top: 2.5vh;
+  width: 40.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #ffb33f;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkTHREEDescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}
+.main .sectionPERKS .containerPERKS .perkFORSPM {
+  grid-column-start: 4;
+}
+.main .sectionPERKS .containerPERKS .lineDividerPERKFOUR {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #5e33d1;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkFOURTitle {
+  margin-top: 2.5vh;
+  width: 40.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #5e33d1;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkFOURDescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}
+.main .sectionPERKS .containerPERKS .perkFIVESPM {
+  grid-column-start: 4;
+}
+.main .sectionPERKS .containerPERKS .lineDividerPERKFIVE {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #53DD6C;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkFIVETitle {
+  margin-top: 2.5vh;
+  width: 60.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #53DD6C;
+  opacity: 1;
+}
+.main .sectionPERKS .containerPERKS .perkFIVEDescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}
+.main .sectionReviews {
+  background-color: #1fe1e9;
+  width: 100%;
+  block-size: -moz-fit-content;
+  block-size: fit-content;
+}
+.main .sectionReviews .reviewsContainer {
+  padding-top: 18vh;
+}
+.main .sectionReviews .reviewsContainer .speakerImagesContainer .speakerOne {
+  margin-left: 29px;
+}
+.main .sectionReviews .reviewsContainer .speakerImagesContainer .speakerOne .smallSpeaker1 {
+  width: 29.68vw;
+  height: 39.15vh;
+}
+.main .sectionReviews .reviewsContainer .speakerImagesContainer .speakerTwo {
+  margin-top: -10.99vh;
+  margin-left: -2vw;
+}
+.main .sectionReviews .reviewsContainer .speakerImagesContainer .speakerTwo .smallSpeaker2 {
+  width: 29.68vw;
+  height: 39.15vh;
+}
+.main .sectionReviews .reviewsContainer .sloganTextReviewsContainer .sloganTextREVIEWS {
+  padding-top: 8.67vh;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-weight: bold;
+  font-size: 84px;
+  letter-spacing: 7.4px;
+  color: #ffffff;
+  opacity: 1;
+}
+.main .sectionReviews .reviewsContainer .sloganTextReviewsContainer .reviews {
+  margin-top: 3.99vh;
+  display: flex !important;
+}
+.main .sectionReviews .reviewsContainer .sloganTextReviewsContainer .reviews .reviewONE .fiveStarsContainer .starIcon {
+  color: #000000;
+  width: 45px;
+  height: 45px;
+}
+.main .sectionReviews .reviewsContainer .sloganTextReviewsContainer .reviews .reviewONE .reviewerNameOne {
+  margin-top: 0.99vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold !important;
+  font-size: clamp(33px, 4.35vh, 55px);
+  letter-spacing: 3.5px;
+  color: #ffffff;
+  opacity: 1;
+}
+.main .sectionReviews .reviewsContainer .sloganTextReviewsContainer .reviews .reviewONE .reviewDescriptionOne {
+  margin-top: 0.99vh;
+  text-align: left;
+  font-weight: normal;
+  font-size: clamp(33px, 4.35vh, 45px);
+  letter-spacing: 3.5px;
+  color: #000000;
+}
+.main .sectionReviews .reviewsContainer .reviewTWO .fiveStarsContainer .starIcon {
+  color: #000000;
+  width: 45px;
+  height: 45px;
+}
+.main .sectionReviews .reviewsContainer .reviewTWO .reviewerNameTwo {
+  margin-top: 0.99vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold !important;
+  font-size: clamp(33px, 4.35vh, 55px);
+  letter-spacing: 3.5px;
+  color: #ffffff;
+  opacity: 1;
+}
+.main .sectionReviews .reviewsContainer .reviewTWO .reviewDescriptionTwo {
+  margin-top: 0.99vh;
+  text-align: left;
+  font-weight: normal;
+  font-size: clamp(33px, 4.35vh, 45px);
+  letter-spacing: 3.5px;
+  color: #000000;
+}
+.main .sectionReviews .reviewsContainer .reviewTHREE .fiveStarsContainer .starIcon {
+  color: #000000;
+  width: 45px;
+  height: 45px;
+}
+.main .sectionReviews .reviewsContainer .reviewTHREE .reviewerNameThree {
+  margin-top: 0.99vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold !important;
+  font-size: clamp(33px, 4.35vh, 55px);
+  letter-spacing: 3.5px;
+  color: #ffffff;
+  opacity: 1;
+}
+.main .sectionReviews .reviewsContainer .reviewTHREE .reviewDescriptionThree {
+  margin-top: 0.99vh;
+  text-align: left;
+  font-weight: normal;
+  font-size: clamp(33px, 4.35vh, 45px);
+  letter-spacing: 3.5px;
+  color: #000000;
+}
+.main .sectionGetAppNow {
+  background-color: #191919;
+  height: 60vh;
+  width: 100%;
+}
+.main .sectionGetAppNow .containerGETAPPNOW {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  padding-top: 45px;
+}
+.main .sectionGetAppNow .containerGETAPPNOW .sloganTextGetAppNow {
+  grid-column-start: 1;
+  padding-top: 20vh;
+  margin-left: 172px;
+  width: 1000px;
+  text-align: left;
+  font: normal normal bold Helvetica;
+  font-size: clamp(82px, 1.35vh, 100px);
+  letter-spacing: 7.4px;
+  color: #D34848;
+  opacity: 1;
+}
+.main .sectionGetAppNow .containerGETAPPNOW .decriptionTextGetAppNow {
+  grid-column-start: 1;
+  padding-top: -5px;
+  margin-left: 172px;
+  width: 941px;
+  height: 60px;
+  text-align: left;
+  font: normal normal normal 51px/61px Helvetica;
+  letter-spacing: 5.1px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.main .sectionGetAppNow .containerGETAPPNOW .CTAButtonGETAPPNOW {
+  grid-column-end: 1;
+  grid-column-start: 2;
+  border: none;
+  margin-top: -8.8vh;
+  margin-left: 1320px;
+  width: 360px;
+  height: 100px;
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  opacity: 1;
+}
+.main .sectionGetAppNow .containerGETAPPNOW .CTAButtonGETAPPNOW .CTAButtonTextGETAPPNOW {
+  color: white;
+  font: normal normal normal Helvetica;
+  font-size: 41px;
+}
+
+.full {
+  height: 120vh;
+  width: 100vw !important;
+}
+
+.headline {
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: 100;
+  font-size: 4vw;
+  position: relative;
+  inset: 0;
+}
+
+.inset {
+  position: absolute;
+  inset: 0;
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: #446;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient {
+  background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black);
+}/*# sourceMappingURL=Home.module.css.map */

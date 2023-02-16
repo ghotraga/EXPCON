@@ -1,0 +1,536 @@
+.pricingPage {
+    .planpricingRoot {
+        background-color: #191919;
+        //height: 100vh;
+        width: fit-content;
+        block-size: fit-content;
+
+        .containerPRICING {
+            //padding-top: 14vh;
+            //margin-left: 15vw;
+            //margin-right: 15vw;
+           // position: absolute;
+            .pricingTITLE {
+                padding-top: 10vh;
+                margin-left: 10vw;
+                width: 18.6vw;
+                //height: 88px;
+                text-align: left;
+                font: normal normal bold Helvetica;
+                font-size: clamp(44px, 4.35vw, 54px);
+                letter-spacing: 5.4px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+
+            .pricingDESCRIPTION {
+                padding-top: 1vh;
+                margin-left: 10vw;
+                //width: 1550px;
+                //height: 140px;
+                text-align: left;
+                font: normal normal normal Helvetica;
+                font-size: clamp(24px, 4.35vw, 34px);
+                letter-spacing: 3.1px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+
+            .pricingContainer {
+                padding-top: 4vh;
+                padding-left: 10vw;
+                //display: grid !important;
+                //grid-template-columns: 20.20vw 20.20vw 20.20vw;
+                //grid-template-columns: minmax(1, 1fr) minmax(1, 1fr);
+                //grid-column-gap: 8%;
+                //grid-auto-flow: column !important;
+                //justify-content: space-around;
+                //align-content: space-between;
+
+                .pricingONE {
+                    grid-column-start: 1;
+                
+                    .priceOneTier {
+                        /*margin-left: 199px;*/
+                        width: 5.71vw;
+                        height: 3.8vh;
+                        text-align: left;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(17px, 4.35vw, 27px);
+                        font-weight: bold;
+                        letter-spacing: 4.2px;
+                        color: #D24848;
+                        opacity: 1;
+                    }
+                
+                    .priceOneLineDivider {
+                        margin-top: 1.4vh;
+                        /*margin-left: 199px;*/
+                        width: 5.51vw;
+                        height: 0px;
+                        border: 2px solid #D14747;
+                        opacity: 1;
+                    }
+                
+                    .priceOneType {
+                        margin-top: 2.12vh;
+                        /*margin-left: 199px;*/
+                        width: 10.16vw;
+                        height: 4.25vh;
+                        text-align: left;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(22px, 4.35vw, 31px);
+                        font-weight: bold;
+                        letter-spacing: 4.7px;
+                        color: #D24848;
+                        opacity: 1;
+                    }
+                
+                    .priceOneCost {
+                        //margin-top: 35px;
+                        /*margin-left: 199px;*/
+                        width: 6.33vw;
+                        height: 12.13vh;
+                        text-align: left;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(77px, 4.35vw, 87px);
+                        font-weight: bold;
+                        letter-spacing: 13.4px;
+                        color: #D24848;
+                        opacity: 1;
+                    }
+                
+                    .priceOneDescription {
+                        margin-top: 1vh;
+                        /*margin-left: 199px;*/
+                        width: 100.05vw;
+                        height: 28.43vh;
+                        text-align: left;
+                        font: normal normal normal Helvetica;
+                        font-size: clamp(10px, 4.35vw, 36px);
+                        letter-spacing: 4.7px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                    }
+                
+                    .buttonONEContainer {
+                        // margin-left: -2.5vw;
+                         //margin-top: -7.5vh;
+                    }
+                
+                    .buttonONEPRICING {
+                        //margin-top: -7.58vh;
+                        margin-right: 50%;
+                        margin-top: 10.5%;
+                        margin-bottom: 6.25%;
+                        //margin-top: -0.58vh;
+                        //margin-left: 2.67vw;
+                        // width: 17.5vw;
+                        // height: 8.67vh;
+                        // width: 435px;
+                        // height: 104px;
+                        width: 17.4vh;
+                        height: 8.67vh;
+                        background: #D24848 0% 0% no-repeat padding-box;
+                        border: none;
+                        border-radius: 79px;
+                        opacity: 1;
+                    }
+                
+                    .buttonONEText {
+                        // width: 105px;
+                        //height: 28px;
+                        text-align: center;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(24px, 4.35vw, 29px);
+                        letter-spacing: 2.4px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                    }
+                }
+                
+                .pricingTWO {
+                    grid-column-start: 2;
+                    
+                    .priceTwoTier {
+                        width: 5.71vw;
+                        height: 3.8vh;
+                        text-align: left;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(17px, 4.35vw, 27px);
+                        font-weight: bold;
+                        letter-spacing: 4.2px;
+                        color: #FFB33F;
+                        opacity: 1;
+                    }
+                
+                    .priceTwoLineDivider {
+                        margin-top: 1.36vh;
+                        /* margin-left: 357px;*/
+                        width: 5.51vw;
+                        height: 0px;
+                        border: 2px solid #FFB33F;
+                        opacity: 1;
+                    }
+                
+                    .priceTwoType {
+                        margin-top: 2.12vh;
+                        /* margin-left: 357px;*/
+                        width: 8.01vw;
+                        height: 4.25vh;
+                        text-align: left;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(22px, 4.35vw, 31px);
+                        font-weight: bold;
+                        letter-spacing: 4.7px;
+                        color: #FFB33F;
+                        opacity: 1;
+                    }
+                
+                    .priceTwoCost {
+                        //margin-top: 35px;
+                        /* margin-left: 357px;*/
+                        width: 26.25vw;
+                        height: 16.63vh;
+                        text-align: left;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(77px, 4.35vw, 87px);
+                        font-weight: bold;
+                        letter-spacing: 13.5px;
+                        color: #FFB33F;
+                        opacity: 1;
+                    }
+                
+                    .priceTwoDescription {
+                        margin-top: -3.03vh;
+                       // margin-left: -2.2vw;
+                        height: 28.43vh;
+                        text-align: left;
+                        font: normal normal normal Helvetica;
+                        font-size: clamp(10px, 4.35vw, 36px);//26px
+                        letter-spacing: 4.7px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                        width: 100.05vw;
+                    }
+                
+                    .buttonTWOContainer {
+                        //margin-left: -8.04vw;
+                                               //margin-top: -7.58vh;
+                                            //   sss margin-top: -0.58vh;
+                                            //    margin-left: 5.59vw;
+                    }
+                
+                    .buttonTWOPRICING {
+                        margin-right: 50%;
+                        margin-top: -7.5%;
+                        margin-bottom: 6.25%;
+                        width: 17.4vh;
+                        height: 8.67vh;
+                        background: #FFB33F 0% 0% no-repeat padding-box;
+                        border-radius: 79px;
+                        border: none;
+                        opacity: 1;
+                    }
+                
+                    .buttonTWOText {
+                        //width: 105px;
+                        //height: 28px;
+                        text-align: center;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(24px, 4.35vw, 29px);
+                        letter-spacing: 2.4px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                    }
+                }
+                
+                .pricingTHREE {
+                    grid-column-start: 3;
+                
+                    .priceThreeTier {
+                        margin-left: 2vw;
+                        width: 3.9vw;
+                        height: 3.8vh;
+                        text-align: left;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(17px, 4.35vw, 27px);
+                        font-weight: bold;
+                        letter-spacing: 4.2px;
+                        color: #1FE1E9;
+                        opacity: 1;
+                    }
+                
+                    .priceThreeLineDivider {
+                        margin-top: 1.36vh;
+                        margin-left: 1.95vw;
+                        width: 5.12vw;
+                        height: 0px;
+                        border: 2px solid #1FE1E9;
+                        opacity: 1;
+                    }
+                
+                    .priceThreeType {
+                        margin-top: 2.12vh;
+                        margin-left: 2vw;
+                        width: 8.01vw;
+                        height: 4.25vh;
+                        text-align: left;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(22px, 4.35vw, 31px);
+                        font-weight: bold;
+                        letter-spacing: 4.7px;
+                        color: #1FE1E9;
+                        opacity: 1;
+                    }
+                
+                    .priceThreeCost {
+                        //margin-top: 35px;
+                        margin-left: 2vw;
+                        width: 26.30vw;
+                        height: 16.79vh;
+                        text-align: left;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(77px, 4.35vw, 87px);
+                        font-weight: bold;
+                        letter-spacing: 13.5px;
+                        color: #1FE1E9;
+                        opacity: 1;
+                    }
+                
+                    .priceThreeDescription {
+                        margin-top: -3.03vh;
+                        margin-left: 2.04vw;
+                        width: 100.05vw;
+                        height: 28.43vh;
+                        text-align: left;
+                        font: normal normal normal Helvetica;
+                        font-size: clamp(10px, 4.35vw, 36px);//26px
+                        letter-spacing: 4.7px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                    }
+                
+                    .buttonTHREEContainer {
+                         margin-left: 1.75vw;
+                        // margin-top: -7.5vh;
+                    }
+                
+                    .buttonTHREEPRICING {
+                        // margin-top: -0.58vh;
+                        margin-left: 9%;
+                        margin-top: -7.5%;
+                        margin-bottom: 6.25%;
+                        width: 17.4vh;
+                        height: 8.67vh;
+                        background: #1FE1E9 0% 0% no-repeat padding-box;
+                        border-radius: 79px;
+                        border: none;
+                        opacity: 1;
+                    }
+                
+                    .buttonTHREEText {
+                        // width: 105px;
+                        // height: 28px;
+                        text-align: center;
+                        font: normal normal bold Helvetica;
+                        font-size: clamp(8px, 4.35vw, 29px);
+                        letter-spacing: 2.4px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sliderCarousel {
+    width: 70vw;
+    position: center;
+
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        top: 50%;
+    }
+
+    .slick-prev {
+        left: 5%;
+    }
+
+    .slick-next {
+        right: 5%;
+    }
+}
+
+.sloganTextPERKS {
+    font-family: var(--font-familyExtraLightReg) !important;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder !important;
+    font-size: clamp(50px, 4.1vw, 64px);
+    letter-spacing: 6.4px;
+    color: #ffffff;
+    opacity: 1;
+  }
+
+.perkONESPM {
+    grid-column-start: 1;
+  }
+
+  .lineDividerPERKONE {
+    margin-top: 4.47vh;
+    //margin-left: 7.62vw;
+    width: 104px;
+    height: 0px;
+    border: 2px solid #d34848;
+    opacity: 1;
+  }
+
+  .perkOneTitle {
+    margin-top: 2.5vh;
+    //margin-left: 188px;
+    width: 14.97vw;
+    height: 8.03vh;
+    text-align: left;
+    //font: normal normal bold Helvetica;
+    font-family: var(--font-familyExtraLightReg) !important;
+    font-weight: bold;
+    font-size: clamp(30px, 4.1vw, 51px);
+    letter-spacing: 5.1px;
+    color: #d34848;
+    opacity: 1;
+  }
+
+  .perkOneDescription {
+    //width: 38.18vw;
+    //height: 19.51vh;
+    text-align: left;
+    //font: normal normal normal 35px/41px Helvetica;
+    font-size: clamp(35px, 4.1vw, 41px);
+    font-family: var(--font-familyExtraLightReg) !important;
+    //font-size: 41px;
+    letter-spacing: 3.5px;
+    color: #ffffff;
+  }
+
+  .perkTWONFCP {
+    grid-column-start: 2;
+  }
+
+  .lineDividerPERKTWO {
+    margin-top: 4.47vh;
+    //margin-left: 7.62vw;
+    width: 104px;
+    height: 0px;
+    border: 2px solid #1fe1e9;
+    opacity: 1;
+  }
+
+  .perkTWOTitle {
+    margin-top: 2.5vh;
+    //margin-left: 188px;
+    width: 14.97vw;
+    height: 8.03vh;
+    text-align: left;
+    //font: normal normal bold Helvetica;
+    font-family: var(--font-familyExtraLightReg) !important;
+    font-weight: bold;
+    font-size: clamp(30px, 4.1vw, 51px);
+    letter-spacing: 5.1px;
+    color: #1fe1e9;
+    opacity: 1;
+  }
+
+  .perkTWODescription {
+    text-align: left;
+    //font: normal normal normal 35px/41px Helvetica;
+    font-size: clamp(35px, 4.1vw, 41px);
+    font-family: var(--font-familyExtraLightReg) !important;
+    //font-size: 41px;
+    letter-spacing: 3.5px;
+    color: #ffffff;
+    //width: 38.18vw;
+    //height: 19.51vh;
+  }
+
+  .perkTHREESPM {
+    grid-column-start: 3;
+  }
+
+  .lineDividerPERKTHREE {
+    margin-top: 4.47vh;
+    //margin-left: 7.62vw;
+    width: 104px;
+    height: 0px;
+    border: 2px solid #ffb33f;
+    opacity: 1;
+  }
+
+  .perkTHREETitle {
+    margin-top: 2.5vh;
+    //margin-left: 188px;
+    width: 40.97vw;
+    height: 8.03vh;
+    text-align: left;
+    //font: normal normal bold Helvetica;
+    font-family: var(--font-familyExtraLightReg) !important;
+    font-weight: bold;
+    font-size: clamp(30px, 4.1vw, 51px);
+    letter-spacing: 5.1px;
+    color: #ffb33f;
+    opacity: 1;
+  }
+
+  .perkTHREEDescription {
+    text-align: left;
+    //font: normal normal normal 35px/41px Helvetica;
+    font-size: clamp(35px, 4.1vw, 41px);
+    font-family: var(--font-familyExtraLightReg) !important;
+    //width: 38.18vw;
+    //font-size: 41px;
+    letter-spacing: 3.5px;
+    color: #ffffff;
+    //height: 19.51vh;
+  }
+
+  .perkFORSPM {
+    grid-column-start: 4;
+  }
+
+  .lineDividerPERKFOUR {
+    margin-top: 4.47vh;
+    //margin-left: 7.62vw;
+    width: 104px;
+    height: 0px;
+    border: 2px solid #5e33d1;
+    opacity: 1;
+  }
+
+  .perkFOURTitle {
+    margin-top: 2.5vh;
+    //margin-left: 188px;
+    width: 40.97vw;
+    height: 8.03vh;
+    text-align: left;
+    //font: normal normal bold Helvetica;
+    font-family: var(--font-familyExtraLightReg) !important;
+    font-weight: bold;
+    font-size: clamp(30px, 4.1vw, 51px);
+    letter-spacing: 5.1px;
+    color: #5e33d1;
+    opacity: 1;
+  }
+
+  .perkFOURDescription {
+    //width: 38.18vw;
+   // height: 19.51vh;
+    text-align: left;
+    //font: normal normal normal 35px/41px Helvetica;
+    font-size: clamp(35px, 4.1vw, 41px);
+    font-family: var(--font-familyExtraLightReg) !important;
+    //font-size: 41px;
+    letter-spacing: 3.5px;
+    color: #ffffff;
+  }
