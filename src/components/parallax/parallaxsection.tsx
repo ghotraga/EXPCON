@@ -56,8 +56,8 @@ import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse
 // For 1080p monitors
 import { ParallaxBanner } from "react-scroll-parallax"
 import { BannerLayer } from "react-scroll-parallax/dist/components/ParallaxBanner/types"
-import imageBackground from 'public/images/image5.jpg'
-import imageForeground from 'public/images/imageRemoveBG.png'
+//import imageBackground from 'public/images/image5.jpg'
+//import imageForeground from 'public/images/imageRemoveBG.png'
 import styles from "@/styles/Home.module.css";
 import { Collapse, Typography } from '@mui/material';
 import React, {useState} from "react";
@@ -67,7 +67,7 @@ import styles1 from '@/styles/Herosection.module.css'
 export const ParallaxComponent = () => {
     const background: BannerLayer = {
     image:
-    "https://gagandeepghotra.com/Projects/expconImages/fullCleanBackground.jpg",
+    "https://gagandeepghotra.com/Projects/expconImages/cleanCompressedBg.png",
   translateY: [0, 12],
   opacity: [0.3, 1],
   scale: [1.1, 1, "easeOutCubic"],
