@@ -31,7 +31,8 @@
       width: 100%;
       position: relative;
       top: -57%;/*-66. -64 (best with 10rem)*/
-
+      color: white;
+      
       .sloganAndCTATextWrapper {
         text-align: center;
         
@@ -49,6 +50,7 @@
           font-family: var(--font-familyExtraLightReg) !important;
           font-size: 2vw;
           padding-top: 5px;
+          color: white;
         }
       }
     }
