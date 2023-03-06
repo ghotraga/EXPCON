@@ -268,47 +268,43 @@
   color: #FFFFFF;
   opacity: 1;
 }
-
-.sliderCarousel {
-  width: 70vw;
-  position: center;
+.pricingPage .sectionPERKS {
+  background-color: #191919;
+  width: 100%;
+  block-size: -moz-fit-content;
+  block-size: fit-content;
+  padding-bottom: 52px;
 }
-.sliderCarousel .slick-prev,
-.sliderCarousel .slick-next {
-  position: absolute;
-  top: 50%;
+.pricingPage .sectionPERKS .containerPERKS {
+  margin-left: 2.58vw;
+  block-size: -moz-fit-content !important;
+  block-size: fit-content !important;
 }
-.sliderCarousel .slick-prev {
-  left: 5%;
+.pricingPage .sectionPERKS .containerPERKS .perksContainer {
+  display: flex !important;
 }
-.sliderCarousel .slick-next {
-  right: 5%;
-}
-
-.sloganTextPERKS {
+.pricingPage .sectionPERKS .containerPERKS .sloganTextPERKS {
   font-family: var(--font-familyExtraLightReg) !important;
   padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
   font-weight: bolder !important;
-  font-size: clamp(50px, 4.1vw, 64px);
+  font-size: clamp(50px, 4.1vw, 74px);
   letter-spacing: 6.4px;
   color: #ffffff;
   opacity: 1;
 }
-
-.perkONESPM {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkONESPM {
   grid-column-start: 1;
 }
-
-.lineDividerPERKONE {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .lineDividerPERKONE {
   margin-top: 4.47vh;
   width: 104px;
   height: 0px;
   border: 2px solid #d34848;
   opacity: 1;
 }
-
-.perkOneTitle {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkOneTitle {
   margin-top: 2.5vh;
   width: 14.97vw;
   height: 8.03vh;
@@ -320,28 +316,23 @@
   color: #d34848;
   opacity: 1;
 }
-
-.perkOneDescription {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkOneDescription {
   text-align: left;
   font-size: clamp(35px, 4.1vw, 41px);
   font-family: var(--font-familyExtraLightReg) !important;
   letter-spacing: 3.5px;
   color: #ffffff;
 }
-
-.perkTWONFCP {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkTWONFCP {
   grid-column-start: 2;
 }
-
-.lineDividerPERKTWO {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .lineDividerPERKTWO {
   margin-top: 4.47vh;
   width: 104px;
   height: 0px;
-  border: 2px solid #1fe1e9;
   opacity: 1;
 }
-
-.perkTWOTitle {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkTWOTitle {
   margin-top: 2.5vh;
   width: 14.97vw;
   height: 8.03vh;
@@ -353,28 +344,24 @@
   color: #1fe1e9;
   opacity: 1;
 }
-
-.perkTWODescription {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkTWODescription {
   text-align: left;
   font-size: clamp(35px, 4.1vw, 41px);
   font-family: var(--font-familyExtraLightReg) !important;
   letter-spacing: 3.5px;
   color: #ffffff;
 }
-
-.perkTHREESPM {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkTHREESPM {
   grid-column-start: 3;
 }
-
-.lineDividerPERKTHREE {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .lineDividerPERKTHREE {
   margin-top: 4.47vh;
   width: 104px;
   height: 0px;
   border: 2px solid #ffb33f;
   opacity: 1;
 }
-
-.perkTHREETitle {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkTHREETitle {
   margin-top: 2.5vh;
   width: 40.97vw;
   height: 8.03vh;
@@ -386,28 +373,24 @@
   color: #ffb33f;
   opacity: 1;
 }
-
-.perkTHREEDescription {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkTHREEDescription {
   text-align: left;
   font-size: clamp(35px, 4.1vw, 41px);
   font-family: var(--font-familyExtraLightReg) !important;
   letter-spacing: 3.5px;
   color: #ffffff;
 }
-
-.perkFORSPM {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkFORSPM {
   grid-column-start: 4;
 }
-
-.lineDividerPERKFOUR {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .lineDividerPERKFOUR {
   margin-top: 4.47vh;
   width: 104px;
   height: 0px;
   border: 2px solid #5e33d1;
   opacity: 1;
 }
-
-.perkFOURTitle {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkFOURTitle {
   margin-top: 2.5vh;
   width: 40.97vw;
   height: 8.03vh;
@@ -419,8 +402,36 @@
   color: #5e33d1;
   opacity: 1;
 }
-
-.perkFOURDescription {
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkFOURDescription {
+  text-align: left;
+  font-size: clamp(35px, 4.1vw, 41px);
+  font-family: var(--font-familyExtraLightReg) !important;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+}
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkFIVESPM {
+  grid-column-start: 4;
+}
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .lineDividerPERKFIVE {
+  margin-top: 4.47vh;
+  width: 104px;
+  height: 0px;
+  border: 2px solid #53DD6C;
+  opacity: 1;
+}
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkFIVETitle {
+  margin-top: 2.5vh;
+  width: 60.97vw;
+  height: 8.03vh;
+  text-align: left;
+  font-family: var(--font-familyExtraLightReg) !important;
+  font-weight: bold;
+  font-size: clamp(30px, 4.1vw, 51px);
+  letter-spacing: 5.1px;
+  color: #53DD6C;
+  opacity: 1;
+}
+.pricingPage .sectionPERKS .containerPERKS .perksContainerFluid .perkFIVEDescription {
   text-align: left;
   font-size: clamp(35px, 4.1vw, 41px);
   font-family: var(--font-familyExtraLightReg) !important;
